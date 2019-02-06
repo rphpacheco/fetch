@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #487eb0;
+    font-family: 'Roboto';
+}
+
+h1 {
+    padding-left: 15px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0;
+}
+
+.panel {
+    position: absolute;
+    width: 90%;
+    transform: translate(5%);
+    border-radius: 8px;
+    box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.input-bar {
+    display: flex;
+}
+
+.input-bar > select {
+    padding: 15px;
+    background: white;
+    font-size: 16px;
+    border: none;
+    outline: 0;
+    -webkit-appearance: none;
+    border-radius: 0px;
+}
+
+.container {
+    height: 480px;
+    background: white;
+    border: 1px solid gainsboro;
+    overflow: auto;
+}
+
+.get {
+    background: #40739e;
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.content {
+    padding: 20px 30px 20px 30px;
+}

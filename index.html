@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Fetch API</title>
+</head>
+<body>
+    <h1>Utilizando Fetch API</h1>
+    <div class="panel">
+        <div class="get" onclick="getData()">Carregar Dados</div>
+        <div class="input-bar">
+            <select id="method">
+                <option value="GET">GET</option>
+                <option value="POST">POST</option>
+                <option value="PUT">PUT</option>
+            </select>
+            <input type="text" value="" placeholder="Enter request URL">
+        </div>
+        <div class="container">
+            <div class="content">
+                <code id="results"></code>
+            </div>
+        </div>
+    </div>
+    <script src="./js/request.js"></script>
+</body>
+</html>
